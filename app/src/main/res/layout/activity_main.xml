@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/harvey"
+    tools:context=".MainActivity">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#135058"
+            android:gravity="center"
+            android:text="Resume"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/resume_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your Name"
+
+            />
+
+        <EditText
+            android:id="@+id/resume_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your Address" />
+
+        <EditText
+            android:id="@+id/resume_mono"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your Mobile no"
+
+            />
+
+        <EditText
+            android:id="@+id/resume_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your E-mail" />
+
+        <EditText
+            android:id="@+id/resume_dob"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="ENTER YOUR DOB"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Educational Qualification"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#1f4037"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/resume_ssc_marks"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your SSC percentage"
+            />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/resume_hsc-marks"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your HSC percentage"
+            />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/resume_degree_marks"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Your DEGREE percentage"
+            />
+
+
+        <EditText
+            android:inputType="number"
+        android:id="@+id/resume_ssc_year"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter SSC passing Year"
+        />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/resume_hsc-year"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter HSC passing Year"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/resume_Degree_year"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter DEGREE passing Year"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Area Of Interest"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#1f4037"
+            />
+
+        <EditText
+            android:id="@+id/resume_area_of_interest"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your area interest"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Skills"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#1f4037"
+            />
+
+        <EditText
+            android:id="@+id/resume_skills"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your skills"
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Co-Activity"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:background="#1f4037"
+            />
+
+        <EditText
+            android:id="@+id/resume_co_activity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your Co-Activity participated"
+            />
+
+        <Button
+
+            android:id="@+id/resume_button"
+            android:background="#5fa491"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Submit" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

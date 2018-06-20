@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/margo"
+    android:textColor="#000"
+    android:layout_marginLeft="5dp"
+    tools:context=".DisplayResume">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textColor="#000"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="resume"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:text="Address"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:text="Mobile"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtMono"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:text="E-mail"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:text="DOB"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtDob"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#cfc"
+        android:text="Educational Qualification"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="SSC"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtSsc"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtSscYear"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="HSC"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtHsc"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtHscYear"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="DEGREE"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtDegree"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtDegreeYear"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#cfc"
+        android:text="Area Of Interest"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+
+        android:id="@+id/txtInterest"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#cfc"
+        android:text="Computer Skills"
+        android:textSize="20sp"
+        android:textColor="#000"
+
+        />
+
+    <TextView
+
+        android:id="@+id/txtSkills"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#cfc"
+        android:text="Co-Activity Paricipated"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+
+        android:id="@+id/txtCoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+    <TextView
+
+        android:id="@+id/txtSign"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        android:textDirection="rtl"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+
+</LinearLayout>
+</ScrollView>
